@@ -29,7 +29,8 @@ export const Banner: React.FC = () => {
 
   const [currentBanner, setCurrentBanner] = useState(0);
 
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
+  // const intervalRef = useRef<NodeJS.Timeout | null>(null);
+  const intervalRef = useRef<number | null>(null);
 
   const nextBanner = useCallback(
     () => setCurrentBanner(prev => (prev + 1) % bannerContent.length),
