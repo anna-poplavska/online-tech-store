@@ -1,6 +1,6 @@
 # Online tech store
 
-It includes a dynamic product catalog, filtering, a favorites system, a shopping cart, pagination, and responsive layout. I also integrated external APIs to fetch product data. 
+It includes a dynamic product catalog, filtering, a favorites system, a shopping cart, pagination, and responsive layout. I also used external APIs to fetch product data. 
 
 ### Links
 - [Demo](https://anna-poplavska.github.io/online-tech-store/)
